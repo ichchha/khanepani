@@ -20,7 +20,7 @@ public class Settings extends AppCompatActivity {
         dialogbuilder=new AlertDialog.Builder(this);
         final String strSize[]={"5 minutes before","10 minutes before","15 minutes before","20 minutes before","30 minutes before","45 minutes before","60 minutes before"};
 
-        dialogbuilder.setTitle("Notification Time");
+        dialogbuilder.setTitle("Notification time");
         dialogbuilder.setSingleChoiceItems(strSize, -1, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
