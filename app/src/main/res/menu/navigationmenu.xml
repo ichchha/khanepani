@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app:menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/select"
+        android:title="Select Your Tole"
+
+        />
+
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+        />
+    <item
+        android:title="About Us"
+        android:id="@+id/about"
+        />
+    <item
+        android:title="Contact us"
+        android:id="@+id/contact"
+        />
+
+</app:menu>
